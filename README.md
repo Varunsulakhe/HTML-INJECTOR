@@ -13,8 +13,8 @@
 ## Installation
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/html-injector.git
-cd html-injector
+git clone https://github.com/yourusername/HTML-INJECTOR.git
+cd HTML-INJECTOR
 ```
 
 ### 2. Install Dependencies
