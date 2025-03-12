@@ -32,9 +32,11 @@ python3 HTML_Injection.py --url "http://example.com" -p html-injection-payload.t
 ## Example Payloads
 Sample payloads to test for HTML injection:
 ```
-<script>alert('Injected!')</script>
-<img src=x onerror=alert('Injected!')>
-<b>Injected Text</b>
+<body><h1>HTML html</h1></body>
+Html<br>line breaks<br>injection
+<button type="button">Click Me!</button>
+<canvas id="myCanvas">draw htmli</canvas>
+<caption>Html</caption>
 ```
 
 ## Notes
