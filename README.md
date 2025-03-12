@@ -26,17 +26,17 @@ pip install -r requirements.txt
 ## Usage
 ### Basic Scan
 ```bash
-python html_injector.py --url "http://example.com" -p payloads.txt
+python html_injector.py --url "http://example.com" -p injection-payload.txts.txt
 ```
 
 ### Enable Crawling
 ```bash
-python html_injector.py --url "http://example.com" --crawl -p payloads.txt
+python html_injector.py --url "http://example.com" --crawl -p injection-payload.txts.txt
 ```
 
 ### Adjusting Threads for Faster Scans
 ```bash
-python html_injector.py --url "http://example.com" -p payloads.txt -t 20
+python html_injector.py --url "http://example.com" -p html- injection-payload.txt -t 20
 ```
 
 ## Example Payloads
