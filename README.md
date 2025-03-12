@@ -20,23 +20,23 @@ cd html-injector
 ### 2. Install Dependencies
 Ensure you have Python installed, then install the required dependencies:
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Usage
 ### Basic Scan
 ```bash
-python html_injector.py --url "http://example.com" -p injection-payload.txts.txt
+python3 HTML_Injection.py --url "http://example.com" -p injection-payload.txts.txt
 ```
 
 ### Enable Crawling
 ```bash
-python html_injector.py --url "http://example.com" --crawl -p injection-payload.txts.txt
+python3 HTML_Injection.py --url "http://example.com" --crawl -p injection-payload.txts.txt
 ```
 
 ### Adjusting Threads for Faster Scans
 ```bash
-python html_injector.py --url "http://example.com" -p html- injection-payload.txt -t 20
+python3 HTML_Injection.py --url "http://example.com" -p html- injection-payload.txt -t 20
 ```
 
 ## Example Payloads
