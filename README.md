@@ -26,12 +26,12 @@ pip3 install -r requirements.txt
 ## Usage
 ### Basic Scan
 ```bash
-python3 HTML_Injection.py --url "http://example.com" -p html-injection-payload.txt.txt
+python3 HTML_Injection.py --url "http://example.com" -p html-injection-payload.txt
 ```
 
 ### Enable Crawling
 ```bash
-python3 HTML_Injection.py --url "http://example.com" --crawl -p html-injection-payload.txt.txt
+python3 HTML_Injection.py --url "http://example.com" --crawl -p html-injection-payload.txt
 ```
 
 ### Adjusting Threads for Faster Scans
