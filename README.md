@@ -4,15 +4,15 @@
 **HTML Injector** is an advanced security tool that scans websites for HTML injection vulnerabilities. It crawls web pages, extracts parameters, and attempts various HTML injection payloads to detect potential security flaws.
 
 ## Features
-✅ Crawls websites to discover links, forms, and script sources
-✅ Extracts GET and POST parameters from URLs and HTML forms
-✅ Tests each parameter for HTML injection vulnerabilities (reflected)
-✅ Supports multi-threading for fast concurrent testing
-✅ Displays results in real-time and saves structured JSON output
-✅ Supports custom headers and cookies for authenticated scanning
-✅ Allows Git-based script self-update with --update flag
-✅ Command-line interface with flexible argument support
-✅ Handles multiple targets via file input or crawler discovery
+-✅ Crawls websites to discover links, forms, and script sources
+-✅ Extracts GET and POST parameters from URLs and HTML forms
+-✅ Tests each parameter for HTML injection vulnerabilities (reflected)
+-✅ Supports multi-threading for fast concurrent testing
+-✅ Displays results in real-time and saves structured JSON output
+-✅ Supports custom headers and cookies for authenticated scanning
+-✅ Allows Git-based script self-update with --update flag
+-✅ Command-line interface with flexible argument support
+-✅ Handles multiple targets via file input or crawler discovery
 
 ## Installation
 ### 1. Clone the Repository
