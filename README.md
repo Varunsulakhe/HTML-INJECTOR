@@ -17,7 +17,7 @@
 ## Installation
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/HTML-INJECTOR.git
+git clone https://github.com/Varunsulakhe/HTML-INJECTOR.git
 cd HTML-INJECTOR
 ```
 
