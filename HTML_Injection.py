@@ -219,15 +219,18 @@ def main():
     for target in targets:
         scan_target(target, payloads, args.threads, vulnerabilities, args.header, args.cookie)
 
-    display_vulnerabilities(vulnerabilities)
-
-    if args.output:
-        try:
-            with open(args.output, 'w') as f:
-                json.dump(vulnerabilities, f, indent=4)
-            print(f"{GREEN}✅ Results saved to {args.output}{RESET}")
-        except Exception as e:
-            print(f"{RED}❌ Failed to save results: {e}{RESET}")
+    # Display Vulnerabilities
+def display_vulnerabilities(vulnerabilities):
+    print(f"\n{CYAN}📋 Summary of Vulnerabilities:{RESET}")
+    if not vulnerabilities:
+        print(f"{YELLOW}❌ No HTML injection vulnerabilities found.{RESET}")
+        return
+    for vuln in vulnerabilities:
+        print(f"{GREEN}✔️  URL: {vuln['url']}")
+        print(f"   Method: {vuln['method']}")
+        print(f"   Payload: {vuln['payload']}")
+        print(f"   Location: {vuln['location']}")
+        print(f"   Type: {vuln['type']}{RESET}\n")
 
 if __name__ == "__main__":
     main()
